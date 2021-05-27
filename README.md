@@ -4,6 +4,6 @@ Welcome to Genius-Bot, feel free to help out with any of the projects you have a
 
 ## Standardizations
 
-Check the 'standardizations' forlder for specific code-writing requirements.
+Check the ['standardizations' forlder](https://github.com/Genius-Bot/Genius-Bot/tree/main/standardizations) for specific code-writing requirements.
 
 If you want to suggest a code standardization please do so [here](https://github.com/Genius-Bot/Genius-Bot/issues/new?assignees=&labels=help+wanted&template=standardization_suggestion.md)
