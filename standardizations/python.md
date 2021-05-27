@@ -6,7 +6,7 @@ Please follow these rules to the best of your ability when submiting a new .py o
 * Name global constants with uppercase snake case.
 * Name classes and exceptions with capitalized camel case.
 * Use absolute imports.
-* Use 'from' import first, then a space, then regular imports.
+* Use 'from' import first, then a blank line, then regular imports.
 * Oreder imports alphabetically.
 * You are allowed to import classes, functions, and variables, but only if it saves you a significant amount of space (i.e. 'datetime.datetime', etc...)
 * Import multiple things where possible in 'from' imports.
