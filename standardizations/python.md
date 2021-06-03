@@ -32,6 +32,7 @@ Please follow these rules to the best of your ability when submiting a new .py o
 * Use "if len(x) == 0" instead of "if len(x)" or "if x".
 * Use {} to define dicts and set() to define sets.
 * Use private (\_\_) class variables and getter/setter methods almost exclusively.
+* Use \_\_ at the end of variables in inline functions.
 * Always use 'self' or 'cls' as the first argument in class methods.
 * Use "(cls: typing.Type\[T\]) -> T:" for '\@classmethod' usages.
 * Never use abnormal spacing (i.e. in enumerations, etc...)
