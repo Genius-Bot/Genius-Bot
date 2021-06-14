@@ -29,7 +29,7 @@ Please follow these rules to the best of your ability when submiting a new .py o
 * Use "s exclusively for strings, never 's.
 * Always use f-strings not %s, .format(), or similar, unless absolutely necessary.
 * Use the minimal number of brackets while still keeping your code easy to read.
-* Use "if len(x) == 0" instead of "if len(x)" or "if x".
+* Use "if len(x) > 0" instead of "if len(x)" or "if x".
 * Use {} to define dicts and set() to define sets.
 * Use private (\_\_) class variables and getter/setter methods almost exclusively.
 * Use \_\_ at the end of variables in inline functions.
@@ -39,6 +39,6 @@ Please follow these rules to the best of your ability when submiting a new .py o
 * Do not use docstrings to document values in enumerations.
 * Optionally use "Meta" after class names for classes that are meant to be inherited or used as meta classes.
 * Always initiate class variables in \_\_init\_\_ unless there are inheritance complications.
-* Rarely use the '\@dataclasses.dataclass' decorator, as it does not allow for easy runtime errors, you are allowed to in some cases where you are storing user input.
+* Never use the '\@dataclasses.dataclass' decorator, as it does not allow for easy runtime errors.
 * In the end your top priority should be making your code easily readable.
 * For anything not covered above, default to [the Google Python formatting guidelines](https://google.github.io/styleguide/pyguide.html).
