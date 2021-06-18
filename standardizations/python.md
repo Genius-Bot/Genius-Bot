@@ -34,7 +34,7 @@ Please follow these rules to the best of your ability when submiting a new .py o
 * Use private (\_\_) class variables and getter/setter methods almost exclusively.
 * Use \_\_ at the end of variables in inline functions.
 * Always use 'self' or 'cls' as the first argument in class methods.
-* Use "(cls: typing.Type\[T\]) -> T:" for '\@classmethod' usages.
+* Only use quotes around a type-hint when absolutely necessary.
 * Never use abnormal spacing (i.e. in enumerations, etc...)
 * Do not use docstrings to document values in enumerations.
 * Optionally use "Meta" after class names for classes that are meant to be inherited or used as meta classes.
