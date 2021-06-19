@@ -1,6 +1,6 @@
 # Python standardizations
 
-Please follow these rules to the best of your ability when submiting a new .py or .pyi file.
+Please follow these rules to the best of your ability when submiting a new python file.
 
 * Name folders, files, any non-constant variables, and functions with lowercase snake case.
 * Name global constants with uppercase snake case.
